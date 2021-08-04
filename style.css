@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Julius+Sans+One&family=Varela+Round&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'AbeeZee', sans-serif;
+  color: #2F2F2F;
+  font-size: 17px;
+  line-height: normal;
+}
+
+h1 {
+  color: #36494E;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+  line-height: normal;
+}
+
+h2 {
+  color: #597081;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 24px;
+  line-height: normal;
+  margin: 30px 20px;
+}
+
+h3 {
+  color: #36494E;
+  margin-bottom: 30px;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+.btn {
+  background-color: #EE964B;
+  padding: 20px;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px auto;
+  }
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding: 40px;
+  background-color: white;
+  border-radius: 4px;
+  margin: 20px;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li i {
+  color: #597081;
+  font-size: 30px;
+}
